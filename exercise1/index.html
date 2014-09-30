@@ -1,23 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<title>Simple Todo App</title>
- 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
- 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+		<head>
+			<link href="todo.css" type="text/css" rel="stylesheet"/>
+			<link href="http://necolas.github.com/normalize.css/2.0.1/normalize.css" rel="stylesheet" />
+		</head>
+		<body>
+				<div class="container">
+						<form>
+								<label>Simple Todo List</label><br />
+								<input type="text"/>
+						</form>
+						<ul id="todo">
 
-<body>
-	<h1>Todo App</h1>
-
-	<input type="text" placeholder="what do you need to learn?">
-	<ul>
-		<li>Don't Step On Dog</li>
-		<!-- Todos will go here -->
-	</ul>
-	<p id="itemsLeft"></p>
-	<button id="deleteAll">Delete completed</button>
-
-	<script src="script.js"></script>
-
-</body>
+						</ul>
+				</div>
+				<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+				<script src="todo.js"></script>
+		</body>
 </html>

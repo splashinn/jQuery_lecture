@@ -1,63 +1,45 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+a {
+    margin-left: 20px;
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+}​
 
+body ul li {
+  list-style: none;
+  display: none;
+}
 
-* {
-  font-family: 'Open Sans Condensed', sans-serif;
+body .container {
+  width: 600px;
+  height: 100%;
+  margin: 0 auto;
 }
-body {
-  max-width:320px;
-  margin:0 auto;
+
+#todo {
+  list-style: none;
 }
-h1 {
-  font-size:52px;
-  font-weight:300;
-  margin:10px 0 20px 0;
+
+form {
+  width: 100%;
+  text-align: center;
 }
-input {
-  border:none;
-  width:100%;
-  font-size:22px;
-  background:#eee;
-  padding:8px 20px;
+
+label {
+  text-align: center;
 }
+
 ul {
-  margin:20px 0;
-  padding:0;
-}
-ul li {
-  width:100%;
-  list-style-type: none;
-  background:#ccc;
-  color:#666;
-  margin-bottom:1px;
-  padding:8px 20px;
-  font-size:22px;
-}
-.delete {
-  float:right;
-  cursor:pointer;
-  color:#fff;
-  font-size:22px;
+  text-align: center;
 }
 
-.delete:hover{
-  color:#FF6666;
+.check {
+  float:left;
+  height: 17px;
+  width: 18px;
+  background-color: purple;
 }
-.completed {
-  text-decoration:line-through;
-  color:#eee;
-}
-p#itemsLeft {
-  padding:8px 20px;
-}
-#deleteAll{
-  margin-left:10px;
-  background:#FF6666;
-  color:#662929;
-  font-size:16px;
-  border:none;
-  padding:8px 20px;
-  letter-spacing:2px;
-  box-shadow:0 2px 0 0 #662929;
-  border-radius:4px;
+
+.strikethrough {
+    text-decoration: line-through;
 }
